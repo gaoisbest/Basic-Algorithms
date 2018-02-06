@@ -4,7 +4,13 @@
 - **Combine** solutions.
 
 # Algorithm list
-- Merge sort
-- Binary search
-- x to the Power of n
+- [Merge sort](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/Merge_sort.py)
+  - T(n) = 2T(n/2) + O(n)
+  - O(nlgn)
+- [Binary search](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/Binary_search.py)
+  - T(n) = T(n/2) + O(1)
+  - O(lgn)
+- [X to the power of n](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/X_power_n.py)
+  - T(n) = T(n/2) + O(1)
+  - O(lgn)
 - ...
