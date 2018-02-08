@@ -1,0 +1,23 @@
+# Lists the lectures.
+- Lecture 1: Introduction: Analysis of Algorithms, Insertion Sort, Merge Sort
+- Lecutre 2
+- Lecutre 3
+- Lecutre 4
+- Lecutre 5
+- Lecutre 6
+- Lecutre 7
+- Lecutre 8
+- Lecutre 9
+- Lecutre 10
+- Lecutre 11
+- Lecutre 12
+- Lecutre 13
+- Lecutre 14
+- Lecutre 15
+- Lecutre 16
+- Lecutre 17
+- Lecutre 18
+- Lecutre 19
+- Lecutre 20
+- Lecutre 21
+- Lecutre 22
