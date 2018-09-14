@@ -1,6 +1,6 @@
 # Lists the lectures.
-- Lecture 1: Introduction: Analysis of Algorithms, Insertion Sort, Merge Sort
-- Lecutre 2
+- [Lecture 1](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-01.md): Introduction, Analysis of Algorithms, Insertion Sort, Merge Sort.
+- [Lecutre 2](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-02.md): Asymptotic notation, Solving recurrences.
 - Lecutre 3
 - Lecutre 4
 - Lecutre 5
