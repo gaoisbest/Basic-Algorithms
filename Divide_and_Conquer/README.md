@@ -14,6 +14,7 @@
 - [X to the power of n](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/X_power_n.py)
   - T(n) = T(n/2) + O(1)
   - O(lgn)
+- Strassen matrix multiplication
 - Quick sort
   - Sort in place, no extra space. Like insertion sort.
   - Principle: **recursive partitioning** from up to bottom.
