@@ -5,7 +5,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Lecture 1](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-01.md): **introduction, analysis of algorithms, insertion sort, merge sort**.
 - [Lecutre 2](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-02.md): **asymptotic notation, solving recurrences: substitution, recurrsion tree, master**.
 - [Lecutre 3](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-03.md): **divide and conquer, binary search, merge sort, x to the power of n, matrix multiplication of Fibonacci numbers, Strassen matrix multiplication**.
-- Lecutre 4
+- [Lecutre 4](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-04.md): **quick sort, randomized quick sort**.
 - Lecutre 5
 - Lecutre 6
 - Lecutre 7
@@ -26,4 +26,4 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - Lecutre 22
 
 # Algorithm design technique
-- Divide and Conquer
+- [Divide and Conquer](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/README.md)
