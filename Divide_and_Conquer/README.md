@@ -15,7 +15,10 @@
   - T(n) = T(n/2) + O(1)
   - O(lgn)
 - Strassen matrix multiplication
-- Quick sort
+- [Fibonacci numbers](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/Fibonacci.py)
+
+- [Quick sort](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/Quick_sort.py)
   - Sort in place, no extra space. Like insertion sort.
   - Principle: **recursive partitioning** from up to bottom.
-  - Worst-case (i.e., reversed sorted) time complexity: O(n^2), T(n) = T(0) + T(n-1) + cn
+  - Worst-case (i.e., reversed sorted) time complexity: O(n^2), T(n) = T(0) + T(n-1) + cn
+  - [Randomized quick sort](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/Quick_sort_randomnized.py)
