@@ -7,7 +7,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Lecutre 3](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-03.md): **divide and conquer, binary search, merge sort, x to the power of n, matrix multiplication of Fibonacci numbers, Strassen matrix multiplication**.
 - [Lecutre 4](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-04.md): **quick sort, randomized quick sort**.
 - [Lecutre 5](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-05.md): **comparison sorting, decision tree model, sort in linear time: couting sort, radix sort, stable sorting algorithm**
-- Lecutre 6
+- [Lecutre 6](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-06.md): **find the k-th element: quick select, worst-case linear-time order statistics**
 - [Lecutre 7](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-07.md): **Hash, hash function, load factor, collision: chaining, open addressing**
 - Lecutre 8
 - Lecutre 9
