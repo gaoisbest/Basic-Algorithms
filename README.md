@@ -9,7 +9,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Lecutre 5](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-05.md): **comparison sorting, decision tree model, sort in linear time: couting sort, radix sort, stable sorting algorithm**
 - [Lecutre 6](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-06.md): **find the k-th element: quick select, worst-case linear-time order statistics**
 - [Lecutre 7](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-07.md): **Hash, hash function, load factor, collision: chaining, open addressing**
-- Lecutre 8
+- [Lecutre 8](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-08.md): **universal hashing**
 - Lecutre 9
 - Lecutre 10
 - Lecutre 11
