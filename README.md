@@ -27,3 +27,4 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 
 # Algorithm design technique
 - [Divide and Conquer](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/README.md)
+- [Dynamic Programming](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Dynamic_Programming/README.md)
