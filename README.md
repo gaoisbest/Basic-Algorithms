@@ -13,10 +13,10 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Lecutre 9](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-09.md): **binary search tree, bst sort, Jensen's equality, convex, expected random build bst height is O(lgn)**
 - Lecutre 10
 - Lecutre 11
-- Lecutre 12
+- [Lecutre 12](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-12.md): **dynamic programming two hallmarks, longest common subsequence**
 - Lecutre 13
 - Lecutre 14
-- [Lecutre 15](): **dynamic programming two hallmarks, longest common subsequence**
+- Lecutre 15
 - Lecutre 16
 - Lecutre 17
 - Lecutre 18
