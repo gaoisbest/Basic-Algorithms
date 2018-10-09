@@ -8,7 +8,7 @@ Insert, delete and query operations is O(lgn)
 - B-tree
 - Red-black tree
 
-# Red­Black Tree
+# Red-Black Tree
 ## Definition
 It is a binary search tree with extra color field for each node, satisfying red-black properties:
 - 1. Every node is either red or black
@@ -22,9 +22,10 @@ It is a binary search tree with extra color field for each node, satisfying red-
 - Restructuring of links via rotations
     - Right-rotate
     - Left-rotate
-    - O(1)
+    - `O(1)`
 
 ### RB-Insert
 - Always red color to preserve property 4
     - If the parent’s color is red, then recoloring or rotation
+- `O(lg n)` with `O(1)` rotations
 
