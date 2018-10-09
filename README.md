@@ -18,7 +18,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Lecutre 7](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-07.md): **Hash, hash function, load factor, collision: chaining, open addressing**
 - [Lecutre 8](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-08.md): **universal hashing**
 - [Lecutre 9](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-09.md): **binary search tree, bst sort, Jensen's equality, convex, expected random build bst height is O(lgn)**
-- Lecutre 10
+- [Lecutre 10](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-10.md): **red-black tree, rb-insert, rotation**
 - Lecutre 11
 - [Lecutre 12](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-12.md): **dynamic programming two hallmarks, longest common subsequence**
 - Lecutre 13
