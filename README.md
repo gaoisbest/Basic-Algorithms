@@ -3,6 +3,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 
 # Data structure
 - [Tree](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
+    - Useful for **dynamic set**(i.e., insert or delete element) query
 
 # Algorithm design technique
 - [Divide and Conquer](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/README.md)
