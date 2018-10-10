@@ -10,3 +10,6 @@
 
 # Find k-th element
 - [Quick select](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Sorting_algorithms/Quick_select.py)
+    - Average `O(n)`
+    - Sorting and select costs `O(nlgn)`
+    - Application: [**find median in linear time**](https://rcoh.me/posts/linear-time-median-finding/).
