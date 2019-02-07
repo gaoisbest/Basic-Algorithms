@@ -2,6 +2,19 @@
 Python implementation of basic algorithms in [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) class. Here is the [video 1](https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html) and [video 2](https://www.bilibili.com/video/av8481187).
 
 # Data structure
+- [Queue](https://www.pythoncentral.io/use-queue-beginners-guide/)
+    - **FIFO**: elements are added from the back and removed from the front
+```
+from collections import deque
+queue = deque([1,5,8,9])
+
+# add
+queue.append(7) #[1,5,8,9,7]]
+
+# remove
+queue.popleft() #[5,8,9,7]
+queue.popleft() #[8,7,9]
+```
 - [Tree](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
 
