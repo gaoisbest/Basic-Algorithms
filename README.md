@@ -5,9 +5,40 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - [Tree](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
 
-# Algorithm design technique
+# Algorithm
+
+## Algorithm attributes
+- Finite (有穷性)
+- Determinate (确定性)
+- Feasible (可行性)
+- Input & output
+
+## Algorithm complexity
+- Time
+    - Basic operation times
+    - `O(nlgn)`
+        - Expectation time of quicksort
+        - Lower-bound of comparison-based sorting algorithms
+- Space
+    - Memory usage
+- Difference
+    - Space can be reused
+    - Time and space can be interchanged (e.g. Hash)
+- `O(1) < O(lgn) < O(n^(1/2)) < O(n) < O(nlgn) < O(n^2) < O(n^3) < O(2^n) < O(n!)`
+
+## Algorithm design technique
+- Exhaustive (穷举法)
+    - N-queen
+    - N permutation
 - [Divide and Conquer](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Divide_and_Conquer/README.md)
+    - Binary search
+    - MergeSort
 - [Dynamic Programming](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Dynamic_Programming/README.md)
+    - 0-1 backpack
+- Greedy
+    - Dijkstra
+    - Prim
+    - Kruskal
 
 # Lectures
 - [Lecture 1](https://github.com/gaoisbest/Basic-Algorithms/blob/master/lectures/Lecture-01.md): **introduction, analysis of algorithms, insertion sort, merge sort**.
