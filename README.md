@@ -2,8 +2,27 @@
 Python implementation of basic algorithms in [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) class. Here is the [video 1](https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html) and [video 2](https://www.bilibili.com/video/av8481187).
 
 # Data structure
-- [Queue](https://www.pythoncentral.io/use-queue-beginners-guide/)
+- **Stack**
+    - **FILO**: elements are added from the front and removed from the front
+    - Application
+        - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [394. Decode String](https://leetcode.com/problems/decode-string/)
+        - Recursive
+        - DFS in graph
+```
+from collections import deque
+stack = deque([1, 2, 5, 1])
+
+# add
+stack.append(7) # [1, 2, 5, 1, 7]
+
+# remove
+stack.pop() # [1, 2, 5, 1]
+```
+
+- [**Queue**](https://www.pythoncentral.io/use-queue-beginners-guide/)
     - **FIFO**: elements are added from the back and removed from the front
+    - Application
+        - BFS in graph
 ```
 from collections import deque
 queue = deque([1,5,8,9])
@@ -15,8 +34,20 @@ queue.append(7) #[1,5,8,9,7]]
 queue.popleft() #[5,8,9,7]
 queue.popleft() #[8,7,9]
 ```
-- [Tree](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
+
+- **Hash**
+    - It is set: unique and non-order
+    - (key, value), the key point of Hash is **index of key**
+    - Application
+        - Unique `n` numbers with range `[0, m)`
+            - Solution 1: Quicksort with time complexity `O(nlogn)` and space complexity `O(1)`
+            - Solution 2: Countsort with time complexity `O(n + m)` and space complexity `O(m)`
+            - Solution 3: hash
+                - Mod operation
+                
+- [**Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
+    
 
 # Algorithm
 
