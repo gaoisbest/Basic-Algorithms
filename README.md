@@ -4,7 +4,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 # Data structure
 - **Stack**
     - **FILO**: elements are added from the front and removed from the front
-    - Application
+    - Applications
         - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [394. Decode String](https://leetcode.com/problems/decode-string/)
         - Recursive
         - DFS in graph
@@ -21,7 +21,7 @@ stack.pop() # [1, 2, 5, 1]
 
 - [**Queue**](https://www.pythoncentral.io/use-queue-beginners-guide/)
     - **FIFO**: elements are added from the back and removed from the front
-    - Application
+    - Applications
         - BFS in graph
 ```
 from collections import deque
@@ -38,7 +38,7 @@ queue.popleft() #[8,7,9]
 - **Hash**
     - It is set: unique and non-order
     - (key, value), the key point of Hash is **index of key**
-    - Application
+    - Applications
         - Unique `n` numbers with range `[0, m)`
             - Solution 1: Quicksort with time complexity `O(nlogn)` and space complexity `O(1)`
             - Solution 2: Countsort with time complexity `O(n + m)` and space complexity `O(m)`
@@ -79,9 +79,19 @@ queue.popleft() #[8,7,9]
     - Binary search
     - MergeSort
 - [Dynamic Programming](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Dynamic_Programming/README.md)
-    - 0-1 backpack
-    - [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
-    
+    - Principle
+        - **Cache**: 1d array, 2d matrix, 3d tensor, map
+        - **bottom-up**
+    - Scenario
+        - [1] **Most**: big (最大), small (最小), long (最长), optimum (最优), counting (计数)
+        - [2] **Recursive formula**: f(n) = F(n-1)
+    - Applications
+        - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+        - [198. House Robber](https://leetcode.com/problems/house-robber/) **0/1 knapsack** without conditions
+        - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/), [**0/1 knapsack**](https://www.cnblogs.com/Christal-R/p/Dynamic_programming.html)
+        - [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+        - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/), **counting**
+        
 - Greedy
     - Dijkstra
     - Prim
