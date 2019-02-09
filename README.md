@@ -44,6 +44,7 @@ queue.popleft() #[8,7,9]
             - Solution 2: Countsort with time complexity `O(n + m)` and space complexity `O(m)`
             - Solution 3: hash
                 - Mod operation
+        - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
                 
 - [**Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
@@ -79,6 +80,8 @@ queue.popleft() #[8,7,9]
     - MergeSort
 - [Dynamic Programming](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Dynamic_Programming/README.md)
     - 0-1 backpack
+    - [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+    
 - Greedy
     - Dijkstra
     - Prim
