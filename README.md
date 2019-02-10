@@ -91,6 +91,7 @@ queue.popleft() #[8,7,9]
         - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/), [**0/1 knapsack**](https://www.cnblogs.com/Christal-R/p/Dynamic_programming.html)
         - [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
         - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/), **counting**
+        - [322. Coin Change](https://leetcode.com/problems/coin-change/)
         
 - Greedy
     - Dijkstra
