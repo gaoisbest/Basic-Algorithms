@@ -48,6 +48,9 @@ queue.popleft() #[8,7,9]
                 
 - [**Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
+    - Applications
+        - [144. Binary Tree Preorder Traversal - non recursive](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+        - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     
 
 # Algorithm
