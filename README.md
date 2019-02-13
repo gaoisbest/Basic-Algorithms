@@ -13,6 +13,8 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
     - **FIFO**: elements are added from the back and removed from the front
     - Applications
         - BFS in graph
+        - PriorityQueue
+            - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 - **2.3 Hash**
     - It is set: unique and non-order
@@ -37,7 +39,27 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
     - Applications
         - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
         - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-    
+        
+- **2.6 Graph**
+    - `G = (V, E)`
+    - Storage
+        - [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix)
+        - [Adjacency table](https://www.geeksforgeeks.org/topological-sorting/)
+    - Traversal
+        - DFS
+        - BFS
+        - **Topological sorting** in DAG
+            - Time complexity: `O(V+E)`
+            - It is used to **schedule jobs from the given dependencies** among jobs
+            - Applications
+                - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+    - Shortest path
+        - **Dijkstra**
+            - **From source node `s` to any other node**
+            - **Weight must be positive**
+            - Time complexity: `O(n^2)`
+            - Applications
+                - [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
    
 # 3. Algorithm
 
