@@ -2,21 +2,23 @@
 Python implementation of basic algorithms in [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) class. Here is the [video 1](https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html) and [video 2](https://www.bilibili.com/video/av8481187).
 
 # 2. Data structure
-- **2.1 Stack**
+
+- **2.1 Linked list**
+- **2.2 Stack**
     - **FILO**: elements are added from the front and removed from the front
     - Applications
         - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [394. Decode String](https://leetcode.com/problems/decode-string/)
         - Recursive
         - [DFS in graph](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
 
-- [**2.2 Queue**](https://www.pythoncentral.io/use-queue-beginners-guide/)
+- [**2.3 Queue**](https://www.pythoncentral.io/use-queue-beginners-guide/)
     - **FIFO**: elements are added from the back and removed from the front
     - Applications
         - [BFS in graph](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
         - PriorityQueue
             - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-- **2.3 Hash**
+- **2.4 Hash**
     - It is set: unique and non-order
     - (key, value), the key point of Hash is **index of key**
     - Applications
@@ -27,20 +29,20 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
                 - Mod operation
         - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
                 
-- [**2.4 Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
+- [**2.5 Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
     - Applications
         - [144. Binary Tree Preorder Traversal - non recursive](https://leetcode.com/problems/binary-tree-preorder-traversal/)
         - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
         - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
         
-- [**2.5 Heap**](https://towardsdatascience.com/data-structure-heap-23d4c78a6962)
+- [**2.6 Heap**](https://towardsdatascience.com/data-structure-heap-23d4c78a6962)
     - It is always **complete** binary tree: root `i`, left `2*i`, right `2*i+1`
     - Applications
         - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
         - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
         
-- **2.6 Graph**
+- **2.7 Graph**
     - `G = (V, E)`
     - Storage
         - [Adjacency matrix, Adjacency table, edge lists](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
