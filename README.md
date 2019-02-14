@@ -7,12 +7,12 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
     - Applications
         - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [394. Decode String](https://leetcode.com/problems/decode-string/)
         - Recursive
-        - DFS in graph
+        - [DFS in graph](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
 
 - [**2.2 Queue**](https://www.pythoncentral.io/use-queue-beginners-guide/)
     - **FIFO**: elements are added from the back and removed from the front
     - Applications
-        - BFS in graph
+        - [BFS in graph](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
         - PriorityQueue
             - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
@@ -43,23 +43,27 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - **2.6 Graph**
     - `G = (V, E)`
     - Storage
-        - [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix)
-        - [Adjacency table](https://www.geeksforgeeks.org/topological-sorting/)
+        - [Adjacency matrix, Adjacency table, edge lists](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
     - Traversal
-        - DFS
-        - BFS
-        - **Topological sorting** in DAG
+        - [DFS by stack](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
+        - [BFS by queue](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
+        - [**Topological sorting**](https://zhuanlan.zhihu.com/p/34871092) in **DAG**
             - Time complexity: `O(V+E)`
             - It is used to **schedule jobs from the given dependencies** among jobs
+            - There may exist **several topological sorting** results for one graph
             - Applications
                 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
     - Shortest path
         - **Dijkstra**
             - **From source node `s` to any other node**
-            - **Weight must be positive**
+            - Key
+                - **Relax operation** to maintain shortest distance from `s` to any other node
+                - **Weight must be positive**
             - Time complexity: `O(n^2)`
             - Applications
                 - [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+        - **Floyd**
+            - **All pairs shortest path**
    
 # 3. Algorithm
 
@@ -105,7 +109,9 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
         - [322. Coin Change](https://leetcode.com/problems/coin-change/)
         
 - 3.3.4 Greedy
+    - Topological sorting
     - Dijkstra
+        - Local optimal is global optimal
     - Prim
     - Kruskal
 
