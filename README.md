@@ -4,6 +4,12 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 # 2. Data structure
 
 - **2.1 Linked list**
+    - Applications
+        - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+        - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+        - [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+        
+        
 - **2.2 Stack**
     - **FILO**: elements are added from the front and removed from the front
     - Applications
