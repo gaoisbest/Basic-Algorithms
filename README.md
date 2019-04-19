@@ -17,7 +17,8 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - **2.3 Stack**
     - **FILO**: elements are added from the front and removed from the front
     - Applications
-        - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/), [394. Decode String](https://leetcode.com/problems/decode-string/)
+        - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+        - [394. Decode String](https://leetcode.com/problems/decode-string/)
         - Recursive
         - [DFS in graph](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/)
 
@@ -38,6 +39,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
             - Solution 3: hash
                 - Mod operation
         - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+        - [1. Two Sum](https://leetcode.com/problems/two-sum/)
                 
 - [**2.6 Tree**](https://github.com/gaoisbest/Basic-Algorithms/blob/master/Tree/README.md)
     - Useful for **dynamic set**(i.e., insert or delete element) query
