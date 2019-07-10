@@ -153,5 +153,14 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
 - Lecutre 21
 - Lecutre 22
 
-# 5. Materials
-- [Coding inverview](https://github.com/gaoisbest/Basic-Algorithms/tree/master/materials/CodingInterview)
+# 5. Coding interview Book
+- [Codes](https://github.com/gaoisbest/Basic-Algorithms/tree/master/materials/CodingInterview)
+- Chapter 1
+    - 1.1 How to test a algorithm?
+        - First: it works
+        - Second: robust to **boundary value** or **invalid value**
+        - Third: optimize it by considering **time and space** complexity
+    - 1.2 How to solve a hard problem?
+        - First: think it at a whole
+        - Second: from `n=1, n=2`; make an example; visualize it
+      
