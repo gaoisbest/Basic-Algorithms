@@ -121,6 +121,7 @@ Python implementation of basic algorithms in [Introduction to Algorithms](https:
         - [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
         - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/), **counting**
         - [322. Coin Change](https://leetcode.com/problems/coin-change/)
+        - [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
         
 - 3.3.4 Greedy
     - Topological sorting
